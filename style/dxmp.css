@@ -1,9 +1,16 @@
-
+/*taken from that gs thing*/
 
 body {
 	min-width: 1000px;
 	font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
 	background-image:url(/img/mbg.gif);
+}
+
+.grid_main {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .localcontainer {
