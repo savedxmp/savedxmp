@@ -16,3 +16,153 @@ body {
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
+
+.transparent {
+	zoom: 1; /* gives the object layout */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.bodyColor {
+	background-color:#8a8977;		
+}
+
+
+.blackBorder {
+	border-style:solid;
+	border-color:#000;
+	border-width:1px;	
+}
+.spacerBottom {
+	margin-bottom:10px;	
+}
+
+#menu a {
+	display:inline-block;
+	padding-left: 20px;
+	padding-right:20px;	
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#000;
+	color:#000;	
+}
+
+#menu a:hover {
+	background-color:#b6b39c;
+	-webkit-transition: all 0.5s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	   -moz-transition: all 0.5s ease-out;  /* Firefox 4-15 */
+	     -o-transition: all 0.5s ease-out;  /* Opera 10.50–12.00 */
+	        transition: all 0.5s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */		
+}
+
+.coloredLinks a {
+	color:#404050;
+	text-decoration: none;
+}
+
+a {
+	color:#000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration:underline;	
+}
+
+.friend a {
+	color:#000;	
+}
+
+.titlebar {
+	overflow-y:no-display;
+	font-size:12pt;
+	font-weight:bold;
+	border-bottom-width:1px;
+	border-bottom-style:dotted;
+	border-bottom-color:#000;
+}
+.footerbar {
+	overflow-y:no-display;
+	font-size:8pt;
+	width:100%;
+	border-top-width:1px;
+	border-top-style:dotted;
+	border-top-color:#000;
+	text-align:right;
+}
+.grid_12 .box {
+	width:700px;	
+}
+.grid_4 .box {
+	width:220px;	
+}
+.boxContent {
+	padding-left:10px;	
+}
+
+
+.online {
+	color:#01780f;	
+	font-weight:bold;
+}
+.offline {
+	color:#b61900;
+	font-weight:bold;
+}
+
+input, textarea, select {
+	background-color:#b6b39c;
+	border-color:#000;
+	border-width:1px;
+	border-style:solid;
+}
+
+.smalltext {
+	font-size:8pt;	
+}
+
+.friend {
+	height:20px;
+	overflow:hidden;
+	-webkit-transition: all 0.5s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	   -moz-transition: all 0.5s ease-out;  /* Firefox 4-15 */
+	     -o-transition: all 0.5s ease-out;  /* Opera 10.50–12.00 */
+	        transition: all 0.5s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */		
+}
+.friend:hover {
+	height:70px;
+	-webkit-transition: all 0.5s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	   -moz-transition: all 0.5s ease-out;  /* Firefox 4-15 */
+	     -o-transition: all 0.5s ease-out;  /* Opera 10.50–12.00 */
+	        transition: all 0.5s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */			
+}
+
+.indent {
+	padding-left:5px;	
+}
+
+.line {
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	height:1px;
+	margin-bottom:5px;	
+}
+
+.button {
+	padding-left:3px;
+	padding-right:3px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.selectedButton {
+	text-decoration:underline;	
+}
+
+.postTextarea {
+	width:500px;
+	height:300px;	
+}
