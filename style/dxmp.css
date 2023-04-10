@@ -123,10 +123,12 @@ a:hover {
 .online {
 	color:#01780f;	
 	font-weight:bold;
+	float: right;
 }
 .offline {
 	color:#b61900;
 	font-weight:bold;
+	float:right;
 }
 
 input, textarea, select {
